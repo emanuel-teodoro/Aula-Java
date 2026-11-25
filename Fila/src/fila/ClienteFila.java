@@ -40,7 +40,9 @@ public class ClienteFila {
 				
 			case 3:
 				if(!fila.isEmpty()) {
-					System.out.println(fila);
+					for(String cliente: fila){
+					System.out.println(cliente);
+					}
 				}else {
 					System.out.println("Fila vazia! nem um cliente para atender");
 				}
