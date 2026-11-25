@@ -1,6 +1,6 @@
 package pilha;
 
-import java.util.Deque;
+import java.util.Deque;//utilizado para pilhas
 import java.util.LinkedList;
 import java.util.Scanner;
 
